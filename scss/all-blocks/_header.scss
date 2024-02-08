@@ -1,0 +1,93 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0px;
+
+  ul {
+    display: flex;
+    gap: 24px;
+    li {
+      list-style: none;
+      color: #234875;
+      font-size: 16px;
+      font-weight: 400;
+    }
+    a {
+      text-decoration: none;
+    }
+  }
+}
+hr {
+  border-color: #6cac3d;
+  opacity: 0.5;
+}
+.nav_bottom {
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 40px 30px 0px;
+    li {
+      display: flex;
+      gap: 10px;
+      color: #171616;
+      font-size: 16px;
+      font-weight: 500;
+      cursor: pointer;
+    }
+  }
+}
+.content {
+  background: linear-gradient(to right, #fff, transparent),
+    url("/assets/bg-img.png") no-repeat center;
+  background-size: cover;
+  margin-top: 50px;
+
+  .text {
+    padding: 30px 30px 150px 30px;
+    width: 50%;
+    h1 {
+      width: 563px;
+      color: #171616;
+      font-family: "Roboto";
+      font-size: 60px;
+      font-weight: 700;
+    }
+    h2 {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      p {
+        color: #000;
+        font-family: "Roboto";
+        font-size: 44px;
+        font-weight: 700;
+      }
+      span {
+        padding: 5px;
+        border-radius: 8px;
+        color: #fff;
+        font-size: 60px;
+        font-weight: 700;
+        background-color: #6cac3d;
+      }
+    }
+    .gurantee {
+      display: flex;
+      margin-top: 60px;
+      h3 {
+        display: flex;
+        flex-direction: column;
+        img {
+          width: 60px;
+          height: 60px;
+        }
+        p {
+          width: 190px;
+        }
+      }
+
+    }
+  }
+}
